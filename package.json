@@ -1,11 +1,13 @@
 {
 	"name": "kobbyjake",
 	"version": "0.0.1",
+	"homepage": "https://KobbyJake.github.io/kobbyjake",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
+		"deploy": "gh-pages -d dist",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "eslint ."
